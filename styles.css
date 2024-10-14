@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Banner Section */
+.banner {
+	background: url('banner.jpg') no-repeat center center/cover;
+	color: white;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.banner h1 {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+}
+
+.banner p {
+	font-size: 1.2rem;
+	margin-bottom: 30px;
+}
+
+.banner button {
+	padding: 10px 20px;
+	font-size: 1rem;
+	background-color: #00aaff;
+	border: none;
+	color: white;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.banner button:hover {
+	background-color: #0088cc;
+}
+
+/* Products & Solutions */
+.products-solutions {
+	padding: 50px 0;
+	background-color: #f4f4f4;
+	text-align: center;
+}
+
+.products-solutions h2 {
+	margin-bottom: 20px;
+}
+
+.solutions {
+	display: flex;
+	justify-content: space-around;
+}
+
+.solution-item {
+	width: 30%;
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+/* Feature-Rich Application */
+.features {
+	padding: 50px 0;
+	text-align: center;
+}
+
+.feature-grid {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.feature-item {
+	width: 22%;
+	background-color: #f4f4f4;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.feature-item img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+/* Customer Section */
+.customers {
+	padding: 50px 0;
+	background-color: #f4f4f4;
+	text-align: center;
+}
+
+.testimonial-item {
+	width: 45%;
+	display: inline-block;
+	background-color: white;
+	padding: 20px;
+	margin: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+/* CRM Form Pop-up */
+.form-popup {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	right: 15px;
+	border: 3px solid #00aaff;
+	z-index: 9;
+}
+
+.form-container {
+	max-width: 300px;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+}
+
+.form-container input {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.btn {
+	background-color: #00aaff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.cancel {
+	background-color: red;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}

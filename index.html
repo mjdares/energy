@@ -1,0 +1,114 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Your Product Landing Page</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<!-- Banner Section -->
+	<section class="banner">
+		<div class="container">
+			<img src="images/banner.jpg" alt="Banner Image">
+
+			<h1>Revolutionize Your Industrial Operations with Real-Time Monitoring & Smart Analytics</h1>
+			<p>Seamlessly connect, monitor, and optimize your plants, energy systems, and remote sites.</p>
+			<button onclick="openForm()">Request a Demo</button>
+		</div>
+	</section>
+
+	<!-- Products & Solutions Section -->
+	<section class="products-solutions">
+		<div class="container">
+			<h2>Products & Solutions</h2>
+			<div class="solutions">
+				<div class="solution-item">
+					<h3>Energy Monitoring</h3>
+					<p>Track and optimize energy usage in real-time to reduce costs and improve efficiency.</p>
+				</div>
+				<div class="solution-item">
+					<h3>Plant Management</h3>
+					<p>Maximize plant performance through centralized monitoring, AI-driven maintenance, and smart
+						control.</p>
+				</div>
+				<div class="solution-item">
+					<h3>Remote Site Monitoring</h3>
+					<p>Monitor and manage remote sites with real-time data and cloud-based access from anywhere.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Feature Rich Application Section -->
+	<section class="features">
+		<div class="container">
+			<h2>Feature-Rich Application</h2>
+			<div class="feature-grid">
+				<div class="feature-item">
+					<img src="Images/visualization.jpg" alt="Visualization">
+					<h3>Visualization</h3>
+					<p>Interactive dashboards offer clear insights, enabling quick data analysis and informed decisions.
+					</p>
+				</div>
+				<div class="feature-item">
+					<img src="Images/Reporting.jpg" alt="Reporting & Analytics">
+					<h3>Reporting & Analytics</h3>
+					<p>Generate custom reports and analytics for actionable insights and efficient decision-making.</p>
+				</div>
+				<div class="feature-item">
+					<img src="Images/connectors.jpg" alt="Versatile Connectors">
+					<h3>Versatile Connectors</h3>
+					<p>Connect easily to existing systems with multi-protocol support for seamless integration.</p>
+				</div>
+				<div class="feature-item">
+					<img src="Images/Integration.jpg" alt="Integration & Interoperability">
+					<h3>Integration & Interoperability</h3>
+					<p>Unify workflows with compatibility across third-party applications and industrial systems.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Our Customers Section -->
+	<section class="customers">
+		<div class="container">
+			<h2>Our Customers</h2>
+			<div class="testimonials">
+				<div class="testimonial-item">
+					<p>"Their platform transformed our plant operations. We’ve reduced downtime by 20% and increased
+						efficiency."</p>
+					<span>— Customer 1</span>
+				</div>
+				<div class="testimonial-item">
+					<p>"The remote monitoring solution saved us thousands in site management costs. It's a
+						game-changer."</p>
+					<span>— Customer 2</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- CRM Form (Pop-up) -->
+	<div class="form-popup" id="crmForm">
+		<form action="#" class="form-container">
+			<h2>Request a Demo</h2>
+			<label for="name"><b>Name</b></label>
+			<input type="text" id="name" placeholder="Your Name" required>
+
+			<label for="email"><b>Email</b></label>
+			<input type="email" id="email" placeholder="Your Email" required>
+
+			<label for="company"><b>Company</b></label>
+			<input type="text" id="company" placeholder="Company Name" required>
+
+			<button type="submit" class="btn">Submit</button>
+			<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+		</form>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
